@@ -1,1 +1,33 @@
 
+package SOFT;
+import java.util.Scanner;
+
+/**
+ *
+ * @author sedefesrakazan
+ */
+public class Number {
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+
+       
+        System.out.print("Enter the first number: ");
+        int first = scn.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int last = scn.nextInt();
+
+       
+        // Print numbers between the two inputs
+        printNumbersInRange(first, last);
+    }
+
+    private static void printNumbersInRange(int first, int last) {
+        System.out.println("Numbers between " + first + " and " + last + ":");
+        for (int i = first + 1; i < last; i++) {
+            System.out.print(i + " ");
+        }
+    }
+}
+
