@@ -1,1 +1,117 @@
+Step a:
+
+git config --global user.name “Sedef  Esra Kazan“
+git config --global user.email “21SOFT1035@isik.edu.tr”
+git config --global core.editor “nano”
+git config --global --list
+
+Step a:
+
+git config --global user.name “Berra Salar“
+git config --global user.email “21SOFT1010@isik.edu.tr”
+git config --global core.editor “nano”
+git config --global --list
+
+
+Step b:
+
+git clone <https://github.com/sedefkazan/Principles-of-Software-Engineering->
+
+cd <Principles-of-Software-Engineering->
+ls
+
+ls -a
+
+Step c:
+
+cd Principles-of-Software-Engineering-
+
+nano Software_Principles.md
+
+
+
+
+
+
+
+
+Step e:
+
+git checkout -b feature-1
+cd hwk4
+
+
+Step f:
+ Java kodu!!!!!!!!
+
+git add .
+
+git commit -m "satisfying requirement one"
+
+
+
+Step g/h/i/j:
+git log --oneline feature-1
+
+git checkout feature-1
+ls -a hwk4
+
+git checkout main
+ls -a hwk4
+
+git checkout main
+git merge feature-1
+
+git checkout main
+git checkout -b feature-2
+
+git checkout main
+git checkout -b feature-3
+
+git checkout feature-2
+
+git add .
+git commit -m "Satisfying requirement change two"
+
+
+Step k:
+
+git checkout feature-2
+git log --oneline feature-2
+
+git checkout feature-3
+
+git add .
+git commit -m "Satisfying requirement change three"
+
+
+Step l:
+git checkout main
+git merge feature-2
+
+
+
+Step m:
+git merge feature-3
+
+
+
+
+Step n:
+git diff main feature-1
+git diff main feature-2
+git diff main feature-3
+
+git push origin main feature-1 feature-2 feature-3
+
+
+Step o:
+git checkout main
+
+nano hwk4/homework4.txt
+
+git add hwk4/homework4.txt
+git commit -m "Adding answers to homework4.txt"
+
+git push origin main
 
